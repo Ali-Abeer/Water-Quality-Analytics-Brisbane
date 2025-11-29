@@ -69,35 +69,10 @@ Sensor anomaly detection
 High-value water-quality insights for operations & science teams
 
 
-Contact
+**Contact**
 
 LinkedIn: <linkedin.com/in/ali-abeer-522289357>
 Email: aabeer.au@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 **Purpose**
