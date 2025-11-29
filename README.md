@@ -34,6 +34,9 @@ Total Samples
 Total Readings
 Avg Value
 Avg Value This Month
+Avg Last 7 Days
+Variance from Overall
+Quality Issue Flag
 
 
 
@@ -41,55 +44,35 @@ Avg Value This Month
 <img width="753" height="473" alt="image" src="https://github.com/user-attachments/assets/f86ecf75-0f2f-4519-bcb9-51b49fb006d8" />
 
 
-**1. Total Samples — 31K**
-This counts unique RecordIDs.
-Each RecordID = one water sampling event.
-This number does not change when you use the slicer, because it shows total unique samples overall.
-
-**2. Total Readings (Selected Parameter)  309K**
-This does change when you select a parameter (Temperature, pH, etc.) from the slicer.
-It tells you:
-How many measurement rows exist for the selected parameter?
-The number is higher than Total Samples because each sample contains multiple parameter readings.
-
-**3. Avg Value — 41.56**
-This is the average of Value for the selected parameter.
-If you select:
-Temperature → this becomes average temperature
-pH → this becomes average pH
-Turbidity → this becomes average turbidity
-This is your main number to monitor parameter performance.
-
-**4. Avg Value Last 7 Days — 45.21**
-This shows the short-term trend.
-Formula:
-Average of the selected parameter over the most recent 7 days.
-Useful for:
-Detecting recent spikes or drops
-Comparing with long-term trend
-
-**5. Max Value — 359.99**
-Highest recorded value for the selected parameter.
-
-**6. Min Value — 0.00**
-Lowest recorded value.
-This can help flag anomalies (like 0 values that may be sensor errors).
-
-
-**Insights**
-
-Which parameters dominate on this day
-Heavy-impact parameters
-Outlier-high parameters
-Possible sensor biases
-Values are very large because your units (e.g., µS/cm, °C) differ.
+**Purpose**
+To provide environmental agencies, local councils, and scientific analysts with a data-driven view of water-quality performance, supporting decisions around environmental monitoring and sustainability.
 
 
 
+**Screenshots**
+
+1)  <img width="753" height="448" alt="image" src="https://github.com/user-attachments/assets/3b1e1954-0d83-4518-aae6-3c03da20f814" />
+
+2) <img width="753" height="448" alt="image" src="https://github.com/user-attachments/assets/882d41df-91e9-4f5a-bcb0-88a88d3fccd8" />
 
 
+3) <img width="753" height="439" alt="image" src="https://github.com/user-attachments/assets/805187e5-5ee4-475f-b1e2-800345473c98" />
 
 
+**Conclusions**
+
+This dashboard reveals:
+Seasonal climate effects
+Parameter stability vs volatility
+Short-term vs long-term deviations
+Sensor anomaly detection
+High-value water-quality insights for operations & science teams
+
+
+Contact
+
+LinkedIn: <linkedin.com/in/ali-abeer-522289357>
+Email: aabeer.au@gmail.com
 
 
 
